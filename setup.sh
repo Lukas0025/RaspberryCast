@@ -48,7 +48,9 @@ then
   exit 0
 fi
 
-pip install youtube-dl bottle livestreamer
+#pip install youtube-dl bottle livestreamer
+sudo python3 -m pip install --force-reinstall https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
+sudo python3 -m pip install bottle livestreamer
 
 if [ "$?" = "1" ]
 then
@@ -63,7 +65,7 @@ echo "Cloning project from GitHub.."
 echo ""
 echo "============================================================"
 
-su - $USER -c "git clone https://github.com/vincelwt/RaspberryCast.git"
+su - $USER -c "git clone https://github.com/Lukas0025/RaspberryCast.git"
 chmod +x ./RaspberryCast/RaspberryCast.sh
 
 echo ""
