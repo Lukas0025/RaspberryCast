@@ -10,7 +10,7 @@ volume = 0
 def launchvideo(url, config, sub=False):
     setState("2")
 
-    os.system("echo -n q > /tmp/cmd &")  # Kill previous instance of OMX
+    os.system("killall omxplayer.bin &")  # Kill previous instance of OMX
 
     if config["new_log"]:
         os.system("sudo fbi -T 1 -a --noverbose images/processing.jpg")
