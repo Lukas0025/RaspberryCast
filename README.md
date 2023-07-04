@@ -26,10 +26,10 @@ The installation script will:
 - Autostart RaspberryCast at boot (added to /etc/rc.local)
 - Reboot
 
-You can review the [install script](https://github.com/vincelwt/RaspberryCast/blob/master/setup.sh).
+You can review the [install script](https://github.com/Lukas0025/RaspberryCast/blob/master/setup.sh).
 
 # Remote control (mobile devices)
-![The remote on Android](https://raw.githubusercontent.com/vincelwt/RaspberryCast/master/images/android.png)
+![The remote on Android](https://raw.githubusercontent.com/Lukas0025/RaspberryCast/master/images/android.png)
 
 On any device connected to the same network as you Pi, you can visit the page:
 ```
@@ -41,10 +41,10 @@ You can also use the Android application (link to Playstore at the top of the pa
 
 ## Chrome & Firefox extension
 #### Extension options
-![alt tag](https://raw.githubusercontent.com/vincelwt/RaspberryCast/master/images/extension.png)
+![alt tag](https://raw.githubusercontent.com/Lukas0025/RaspberryCast/master/images/extension.png)
 
 #### Right-click options
-![alt tag](https://raw.githubusercontent.com/vincelwt/RaspberryCast/master/images/rightclick.png)
+![alt tag](https://raw.githubusercontent.com/Lukas0025/RaspberryCast/master/images/rightclick.png)
 
 You can configure RaspberryCast settings in the extension option page.
 
