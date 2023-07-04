@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import logging
 import os
@@ -175,7 +175,7 @@ def video():
         return "1"
     elif control in ["stop", "next"]:
         logger.info('Command : stop video')
-        os.system("echo -n q > /tmp/cmd &")
+        os.system("killall omxplayer.bin &")
         return "1"
     elif control == "right":
         logger.info('Command : forward')
