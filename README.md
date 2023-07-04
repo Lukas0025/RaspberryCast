@@ -1,5 +1,5 @@
 # RaspberryCast 3.0 (active folk)
-> Transform your Raspberry Pi into a streaming device.
+> Transform your Raspberry Pi into a streaming device (with working youtube).
 Cast videos from mobile devices or computers to your TV.
 
 
@@ -14,8 +14,10 @@ You can also cast playlists from Youtube or Soundcloud.
 
 ## How to install (Raspberry Pi side)
 
+First install raspberian os with OMXPLAYER (Only older verion of Debian)
+
 ```
-wget https://raw.githubusercontent.com/vincelwt/RaspberryCast/master/setup.sh && sudo sh setup.sh
+wget https://raw.githubusercontent.com/Lukas0025/RaspberryCast/master/setup.sh && sudo sh setup.sh
 ```
 That's it.
 
@@ -82,8 +84,6 @@ Delete the /home/pi/RaspberryCast/ folder.
 ## Contribute
 
 If you enjoyed using RaspberryCast, and/or would like to support the development, please consider making a donation.
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XLQTUNFTN9FU8)
 
 ## License
 Code released under the MIT license. 
