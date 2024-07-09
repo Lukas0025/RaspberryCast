@@ -14,7 +14,7 @@ You can also cast playlists from Youtube or Soundcloud.
 
 ## How to install (Raspberry Pi side)
 
-First install raspberian os with OMXPLAYER (Only older verion of Debian)
+First install raspberian os with OMXPLAYER (Only older version of [Debian Buster](https://downloads.raspberrypi.com/raspios_oldstable_lite_armhf/images/raspios_oldstable_lite_armhf-2023-05-03/) is supported).
 
 ```
 wget https://raw.githubusercontent.com/Lukas0025/RaspberryCast/master/setup.sh && sudo sh setup.sh
@@ -36,7 +36,7 @@ On any device connected to the same network as you Pi, you can visit the page:
 http://raspberrypi.local:2020/remote
 ```
 Note that you can "Add to homescreen" this link
- 
+
 You can also use the Android application (link to Playstore at the top of the page)
 
 ## Chrome & Firefox extension
@@ -86,7 +86,7 @@ Delete the /home/pi/RaspberryCast/ folder.
 If you enjoyed using RaspberryCast, and/or would like to support the development, please consider making a donation.
 
 ## License
-Code released under the MIT license. 
+Code released under the MIT license.
 
 You are welcome to contribute to the project.
 
