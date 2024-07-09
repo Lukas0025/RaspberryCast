@@ -48,9 +48,7 @@ then
   exit 0
 fi
 
-#pip install youtube-dl bottle livestreamer
-sudo python3 -m pip install --force-reinstall https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
-sudo python3 -m pip install bottle livestreamer
+sudo python3 -m pip install bottle livestreamer yt-dlp
 
 if [ "$?" = "1" ]
 then
